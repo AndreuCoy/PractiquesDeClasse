@@ -4,85 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandingBootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Pàgina Tailwind</title>
+    <link rel="stylesheet" href="src/output.css">
 </head>
 
 <body>
-
-    <!-- Barra del Navegador     -->
-
-    <nav class="navbar navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://www.acnefi.org/">Acnefi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Què és la Neurofibromatosi</a>
-                        <!-- Obre una pàgina que ho explica, amb un botó de tornar a donacions -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Projectes</a>
-                    </li>
-
-                </ul>
-
-            </div>
-        </div>
-
-    </nav>
-    <!-- Barra del Navegador     -->
-
-    <div class="container" id="AcabaNF">
-        <div class="row">
-                      <div class="col-md-4">
-                <h3 class=>
-                   Acaba  amb <br> la Neurofibromatosi!
-                </h3>
-            </div>
-            <div class="col-md-8 bg-secondary vh-100">
-           
-                <div class="container">
-                    <h2> Fes un donatiu</h2>
-                    <form>
-                      <div class="form-group">
-                        <label for="amount">Choose your donation amount:</label>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="amountRadio" id="amount25" value="25">
-                          <label class="form-check-label" for="amount25">
-                            <img src="25€.png" alt="25 euro donation">
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="amountRadio" id="amount50" value="50">
-                          <label class="form-check-label" for="amount50">
-                            <img src="50euro.jpg" alt="50 euro donation">
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="amountRadio" id="amount75" value="75">
-                          <label class="form-check-label" for="amount75">
-                            <img src="75euro.jpg" alt="75 euro donation">
-                          </label>
-                        </div>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Donate</button>
-                    </form>
-                  </div>
-
-
-            </div>
-        </div>
-    </div>
  
+    <nav class="flex items-center justify-between max-w-screen h-30 decoration-none bg-orange-600">
+        <ul class="flex w-full space-x-4">
+            <li class="flex-1">Hola</li>
+            <li class="flex-1">Adeu</li>
+            <li class="flex-1">Com estàs</li>
+        </ul>
+    </nav>
 
-    <script src="js/bootstrap.bundle.js"></script>
+    <div class="grid grid-cols-12 max-w-screen h-screen bg-slate-100 relative">
+
+                <!-- Column -->
+        <div class="col-span-12 md:col-span-4">
+
+                       <img class= "w-full h-auto" src="img/EndNF.png" alt="EndNF Image" src="img/EndNF.png" alt="">
+
+                       
+                       <h1 class="absolute top-0 left-0 w-full text-center text-red-600 p-4">Fes el Pas! <br> Acaba amb la <br>Neurofibromatosi</h1>
+        </div>
+
+            <!-- Column -->
+            <div class="col-span-12 md:col-span-8 max-h-screen bg-amber-500">
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quo ipsam laudantium dolores iure
+                    veniam pariatur sit quod accusamus reprehenderit incidunt enim unde eos eligendi, iusto saepe itaque
+                    ullam fugit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aut in recusandae illo cum porro
+                    architecto, ipsa est quia adipisci alias debitis, nihil nulla dolorem at autem ullam magnam!
+                    Eveniet?</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat dolor voluptatum saepe temporibus
+                    sapiente veritatis aut recusandae illo corrupti, laboriosam, porro cum repudiandae placeat
+                    necessitatibus nobis tenetur dolorem perspiciatis? Libero?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis excepturi amet nisi velit
+                    suscipit ipsam reprehenderit optio molestias non, recusandae praesentium hic nostrum saepe
+                    provident, eaque id dolor. Quidem, nostrum!</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, aperiam dolorem ut fugiat nobis
+                    a itaque officiis optio perferendis, iure distinctio reprehenderit voluptate culpa quisquam quos? Ex
+                    distinctio fuga odio?</li>
+            </ul>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
